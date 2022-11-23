@@ -1,6 +1,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using DevExpress.Drawing;
 using DevExpress.XtraPrinting;
 using DevExpress.XtraPrinting.Drawing;
 using DevExpress.XtraReports.UI;
@@ -36,7 +37,7 @@ namespace DifferentWatermarks {
 
             textWatermark.Text = text;
             textWatermark.TextDirection = DirectionMode.ForwardDiagonal;
-            textWatermark.Font = new Font(textWatermark.Font.FontFamily, 40);
+            textWatermark.Font = new DXFont(textWatermark.Font.Name, 40);
             textWatermark.ForeColor = Color.DodgerBlue;
             textWatermark.TextTransparency = 150;
             textWatermark.ShowBehind = false;

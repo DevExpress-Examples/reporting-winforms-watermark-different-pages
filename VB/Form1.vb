@@ -2,6 +2,7 @@ Imports Microsoft.VisualBasic
 Imports System
 Imports System.Drawing
 Imports System.Windows.Forms
+Imports DevExpress.Drawing
 Imports DevExpress.XtraPrinting
 Imports DevExpress.XtraPrinting.Drawing
 Imports DevExpress.XtraReports.UI
@@ -38,7 +39,7 @@ Namespace DifferentWatermarks
 
 			textWatermark.Text = text
 			textWatermark.TextDirection = DirectionMode.ForwardDiagonal
-			textWatermark.Font = New Font(textWatermark.Font.FontFamily, 40)
+			textWatermark.Font = New DXFont(textWatermark.Font.Name, 40)
 			textWatermark.ForeColor = Color.DodgerBlue
 			textWatermark.TextTransparency = 150
 			textWatermark.ShowBehind = False
