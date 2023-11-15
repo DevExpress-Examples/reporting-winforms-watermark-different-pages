@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Reporting for WinForms - How to Add Different Watermarks to Different Pages
 
-This example shows how to assign a unique watermark to different report pages. you can do it the following ways:
+This example shows how to assign a unique watermark to different report pages. You can do it the following ways:
 
 *  Assign the [Page.WatermarkId](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.Page.WatermarkId?v=23.2) property to the [Watermark.Id](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.Drawing.Watermark.Id?v=23.2) value. 
 
