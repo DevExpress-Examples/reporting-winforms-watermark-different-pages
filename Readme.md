@@ -8,7 +8,7 @@
 
 This example shows how to assign a unique watermark to different report pages. You can do it in the following ways:
 
-*  Assign the [Page.WatermarkId](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.Page.WatermarkId?v=23.2) property to the [Watermark.Id](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.Drawing.Watermark.Id?v=23.2) value. 
+*  Assign the [Page.WatermarkId](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.Page.WatermarkId) property to the [Watermark.Id](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.Drawing.Watermark.Id) value. 
 
 * Call the [Page.AssignWatermark](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.Page.AssignWatermark(DevExpress.XtraPrinting.Drawing.PageWatermark)) method for the page whose watermark you want to change, and pass a new watermark to this method as a parameter. 
 
@@ -24,7 +24,7 @@ If you want to remove the watermark from a particular page, pass a new empty wat
 
 ## Documentation
 
-- [Watermarks](https://docs.devexpress.com/WindowsForms/7225/controls-and-libraries/printing-exporting/concepts/miscellaneous/watermarks?v=23.2)
+- [Watermarks](https://docs.devexpress.com/WindowsForms/7225/controls-and-libraries/printing-exporting/concepts/miscellaneous/watermarks)
 - [Add Watermarks to a Report](https://docs.devexpress.com/XtraReports/16128/detailed-guide-to-devexpress-reporting/add-extra-information/add-watermarks-to-a-report)
 
 <!-- feedback -->
