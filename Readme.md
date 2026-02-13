@@ -28,7 +28,7 @@ If you want to remove the watermark from a particular page, pass a new empty wat
 - [Add Watermarks to a Report](https://docs.devexpress.com/XtraReports/16128/detailed-guide-to-devexpress-reporting/add-extra-information/add-watermarks-to-a-report)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-watermark-different-pages&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-watermark-different-pages&~~~was_helpful=no)
 
